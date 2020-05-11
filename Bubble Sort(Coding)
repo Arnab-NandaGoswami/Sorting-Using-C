@@ -1,10 +1,12 @@
 #include<stdio.h>
 main(){
 
-	int numberOfElement,i,j,swap,counter,a[numberOfElement];
+	int numberOfElement,i,j,swap,counter;
   
 	printf("Enter number of element:\n");
 	scanf("%d",&numberOfElement);
+	
+	int a[numberOfElement];
   
 	printf("Enter elements:\n");
 	for(i=0;i<numberOfElement;i++){
