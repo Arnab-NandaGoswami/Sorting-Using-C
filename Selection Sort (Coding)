@@ -1,10 +1,12 @@
 #include<stdio.h>
 main(){
 	
-	int n,a[n],i,j,min,swap;
+	int n,i,j,min,swap;
 	
 	printf("Enter the number of elements:\n");
 	scanf("%d",&n);
+	
+	int a[n];
 	
 	printf("Enter the elements:\n");
 	for(i=0;i<n;i++){
